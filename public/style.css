@@ -1,0 +1,8 @@
+form {
+  padding: 20px;
+  margin: 10px;
+}
+
+fieldset {
+  border: 1px dashed rgba(83, 83, 83, 0.3);
+}

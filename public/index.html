@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CRUD BLOG</title>
+  </head>
+  <body>
+    <h1>CRUD Blog</h1>
+    <div id="comments"></div>
+
+    <form id="add">
+      <legend>Add Comment</legend>
+      <fieldset>
+        <label>Title: <input type="text" id="titleAdd"/></label>
+        <label>Content: <input type="text" id="contentAdd"/></label>
+        <label>Author: <input type="text" id="autorAdd"/></label>
+        <label><input type="submit" value="Submit" id="buttonAdd"/></label>
+      </fieldset>
+    </form>
+
+    <form id="update">
+      <legend>Update Comment</legend>
+      <fieldset>
+        <label>Id: <input type="text" id="updateid"/></label>
+        <label>Title: <input type="text" id="titleUpdate"/></label>
+        <label>Content: <input type="text" id="contentUpdate"/></label>
+        <label>Author: <input type="text" id="autorUpdate"/></label>
+        <label><input type="submit" value="Update" id="buttonUpdate"/></label>
+      </fieldset>
+    </form>
+
+    <form id="delete">
+      <legend>Delete Comment</legend>
+      <fieldset>
+        <label>Id:<input type="text" id="idDelete"/></label>
+        <label><input type="submit" value="Delete" id="buttonDelete"/></label>
+      </fieldset>
+    </form>
+
+    <form id="query">
+      <legend>Query Comment by Author</legend>
+      <fieldset>
+        <label>Author:<input type="text" id="autorQuery"/></label>
+        <label><input type="submit" value="Submit" id="buttonQuery"/></label>
+      </fieldset>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

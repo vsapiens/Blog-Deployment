@@ -127,7 +127,7 @@ function updateComment() {
     let url = `/blog-api/actualizar-comentario/${id}`;
 
     let objID = {
-      id: id,
+      _id: id,
       titulo: tit,
       contenido: cont,
       autor: aut
